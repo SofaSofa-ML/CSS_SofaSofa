@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.vote_btn, .vote_btn:focus{
+	color: #F1F1F1;
+	text-decoration: none !important;
+}
+.vote_btn:hover{
+	color: #FFF7E2;
+}
+
+.widget-vote {
+    background: #f3f3f3 none repeat scroll 0 0;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    color: #666;
+    font-size: 18px;
+    height: 54px;
+    position: relative;
+    text-align: center;
+    width: 40px;
+}
+.widget-vote.active {
+    background: #FFF7E2;
+}
+.widget-vote .vote_btn {
+    color: #666;
+    height: 18px;
+    top: 0;
+}
+.widget-vote .vote_btn {
+    background-color: #F1F1F1;
+    border: medium none;
+    left: 0;
+    outline: medium none;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+.widget-vote .vote_btn.active {
+    background: #FFF7E2;
+}
+.widget-vote .vote_btn_up {
+  z-index:12;
+}
+.widget-vote .vote_btn_down {
+  margin-top: 30px;
+  height: 20px;
+  z-index: 10;
+}
+.widget-vote div {
+  padding-top: 15px;
+  z-index: 11;
+  position: absolute;
+  width: 100%;
+}
+
+.btn_favourite {
+  border:none;
+}
+
+
+
+.main_reply_div{
+	border-top: 0.7px solid #afafaf;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.second_reply_div{
+	border-top: 0.4px dotted #dddddd;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	font-size: 0.8rem;
+}
+
+
+/* border-top: 1px dotted #C5C5C5; */
+.link_gray{
+	color: #989898;
+	text-decoration: none;
+}
+
+.author_div{
+	/*padding:0.5rem;*/
+	float:right;
+	width: 17rem;
+	height: 2rem;
+	white-space: nowrap;
+	/*background-color:#E9F3FE;*/
+	/*border: 1px solid #ccc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+.author_div p{
+	white-space: nowrap;
+}

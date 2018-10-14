@@ -1,0 +1,36 @@
+#main_row {
+  min-height: 25rem;
+}
+
+#user_profile_leftbar_list .nav-link {
+  width: 100%;
+}
+#user_profile_leftbar_list .nav-link:hover, #user_profile_leftbar_list .nav-link.active {
+  background-color: #F0F5F3;
+  color: #169A61 !important;
+}
+#user_profile_leftbar_list .nav-item {
+  margin-bottom: 0.3rem;
+}
+
+#card_block_chart {
+  height: 330px !important;
+}
+@media screen and (max-width: 768px){
+  #card_block_chart {
+    height: 630px !important;
+  }
+}
+
+.card-footer, .card-header {
+  padding: .5rem 0.75rem;
+}
+.title_link {
+  font-size: 1.1rem;
+  color: #1F810B;
+  text-decoration: none;
+}
+
+.basic_profile_input {
+  margin-top: 0.5rem;
+}
